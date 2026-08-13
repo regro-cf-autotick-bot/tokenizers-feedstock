@@ -15,7 +15,7 @@ source:
     - patches/0002-Ci-test-fixes-2079.patch
 
 build:
-  number: 0
+  number: 1
   # MacOS on ARM builds started failing with segmentation fault.
   # Those builds are being skipped from v0.20.0 in August 2024
   # because Python 3.8 is being dropped at the end of October 2024.
